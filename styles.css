@@ -1,0 +1,46 @@
+body{
+    background-image: url("hermosa-playa-tropical-vacia-mar-oceano-nubes-blancas-sobre-fondo-cielo-azul_74190-13665.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#titulo {
+    font-size: 36px;
+    border: 5px solid salmon;
+    margin: 50px;
+    text-align: center;
+    font-style: unset;
+    border-radius: 30px;
+}
+
+.subtitle{
+    font-size: 28px;
+    border: 3px solid coral;
+    color: darkred;
+    margin: 20px;
+}
+
+.reserva{
+    text-decoration: underline;
+    font-style: oblique;
+    font-size: 16px;
+    margin: 35px;
+
+}
+
+#img{
+    border-radius: 40px;
+    display: block;
+    margin: auto;
+
+}
+
+.text{
+    font-weight: bolder;
+    font-style: oblique;
+    margin: 35px;
+    font-size: 17px;
+}
+
+.opt{
+   font-style: oblique; 
+}

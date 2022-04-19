@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Hotel Piedad</title>
+</head>
+<body> 
+    <h1 id="titulo">Bienvenido al Hotel Piedad</h1>
+    <img src="hiroshima-alargada-1.png" id="img" width="400">
+    
+    <h2 class="subtitle">Descripcion</h2>
+    <p class="text">En nuestro establecimiento usted podra disfrutar de lo mejor de la gastronomia local, piscinas en exterior para verano y en interior para el invierno. Ademas de entretenidas salidas para recorrer la hermosa ciudad donde este se encuentra.</p>
+    <p class="text">No dude en realizar sus reservas a traves de este medio, estamos abiertos todo el año!</p>
+    <br><br>
+    
+    <h2 class="subtitle">Formulario de Reservas</h2>
+    
+    <form>
+        <table>
+            <tr>
+                <td><label class="reserva">Nombre completo: </label></td>
+                <td><input type="text" size="50" required></td>
+            </tr>
+            
+            <tr>
+                <td><label class="reserva">Direccion: </label></td>
+                <td><input type="text" size="100" required></td>
+            </tr>
+
+            <tr>
+                <td><label class="reserva">Rut: </label></td>
+                <td><input type="text" size="12" required></td>
+            </tr>
+
+            <tr>
+                <td><label class="reserva">Telefono: </label></td>
+                <td><input type="tel" required></td>
+            </tr>
+
+            <tr>
+                <td><label class="reserva">Edad: </label></td>
+                <td><input type="number" required></td>
+            </tr>
+
+            <tr>
+                <td><label class="reserva">Sexo: </label></td>
+                <td><select class="opt" required><option>Masculino</option>
+                    <option>Femenino</option>
+                    <option>No Binario</option>
+                    <option>Prefiero no decir</option></select></td>
+            </tr>
+            <tr>
+                <td><label class="reserva">Cantidad de habitaciones</label></td>
+                <td><select class="opt">
+                    <option>Habitacion Single (1 pax)</option>
+                    <option>Habitacion Doble camas separadas (2 pax)</option>
+                    <option>Habitacion Matrimonial (2 pax)</option>
+                    <option>Habitacion Matrimonial 1 infante (3 pax)</option>
+                    <option>Habitacion Matrimonial 2 infantes (4 pax)</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label class="reserva">Fecha de ingreso: </label></td>
+                <td><input type="date" required></td>
+            </tr>
+            <tr>
+                <td><label class="reserva">Fecha de salida: </label></td>
+                <td><input type="date" required></td>
+            </tr>
+            <tr>
+                <td><label class="reserva">Otros Servicios</label></td>
+                <td class="opt"><input type="checkbox">Desayuno
+                <br><input type="checkbox">Almuerzo
+                <br><input type="checkbox">Cena
+                </td>
+            </tr>
+            <tr>
+                <td><label class="reserva">Forma de pago: </label></td>
+                <td class="opt"><input type="radio" name="pay" required>Efectivo
+                <br><input type="radio" name="pay" required>Webpay
+                <br><input type="radio" name="pay" required>Credito
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit"></td>
+            </tr>
+        </table>
+        <br><br><br><br>
+    </form>
+</body>
+</html>
